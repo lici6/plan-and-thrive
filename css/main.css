@@ -1,0 +1,106 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+   /****** COLORS for Website
+     dark sky blue--- #0082d2
+     sky blue ---- #00aae1
+     light sky blue ---- #00d7e1
+     night sky blue ---- #193661
+     gradient fade to white (darkest on corners) ----- #d9d7d7
+   ******/
+
+/****Main CSS****/
+   body {
+        font-family: 'Lato', sans-serif;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Pathway Gothic One', sans-serif;
+}
+
+   .clear{
+     clear:both;
+   }
+
+
+/***** Navigation menu and header *****/
+/*.navbar-brand img {
+  max-width: 200px;
+}*/
+.navbar-header {
+  padding-top: 0px;
+  height:65px;
+
+}
+/*.navbar-brand img{
+  max-width: 200px;
+  padding-top: 0px;
+  }*/
+
+/*** Splash Statement Main Jumbotron top fold***/
+
+  .jumbotron {
+    background-image: url(../img/mountains.png);
+    background-repeat: no-repeat;
+    padding: 0px;
+  }
+
+  .inverse-lettering {
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    color:white;
+    font-size: 2.8em;
+    margin-top: 0px;
+      }
+
+  .large-font {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .large-font2 {
+    font-size: 2.2em;
+  }
+.logo-jumbotron {
+  padding-top: 40px;
+  max-width: 900px;
+  text-align: center;
+  margin:auto;
+
+}
+
+.signature {
+  max-width:400px;
+  margin-bottom: 0px;
+  margin-left: 60%;
+  margin-right: auto;
+  }
+
+.jumbotron-button {
+  text-align: center;
+}
+/*** Trifold mission of the company ***/
+.container h1 {
+  font-size: 3em;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.container h2 {
+  font-size: 2.2em;
+  text-align: center;
+}
+
+
+.container p{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+}
+
+.col-md-4 img {
+  max-width: 300px;
+}
+
+
+/** Coaching Page**/
