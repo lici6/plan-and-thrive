@@ -35,10 +35,33 @@
   height:65px;
 
 }
-/*.navbar-brand img{
-  max-width: 200px;
-  padding-top: 0px;
-  }*/
+/***********This Section overrides the collapsable element of the nav bar with 3 lines****************/
+/***********Before this code, you could only see the 3 bar menu when the screen size was smaller than tablet size***/
+  .navbar-header {
+         float: none;
+     }
+     .navbar-toggle {
+         display: block;
+     }
+     .navbar-collapse {
+         border-top: 1px solid transparent;
+         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+     }
+     .navbar-collapse.collapse {
+         display: none!important;
+     }
+     .navbar-nav {
+         float: none!important;
+         margin: 7.5px -15px;
+     }
+     .navbar-nav>li {
+         float: none;
+     }
+     .navbar-nav>li>a {
+         padding-top: 10px;
+         padding-bottom: 10px;
+     }
+/******End Code for Nav Bar 3 line icon***********/
 
 /*** Splash Statement Main Jumbotron top fold***/
 
