@@ -81,6 +81,7 @@
 
 .jumbotron-button {
   text-align: center;
+  padding-bottom: 10px;
 }
 /*** Trifold mission of the company ***/
 .container h1 {
@@ -158,3 +159,9 @@
    {
      text-align: center;
    }
+
+/*********Consulting Page*************/
+.effective {
+  max-width: 300px;
+  clear:both;
+}
