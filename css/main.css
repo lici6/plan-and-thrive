@@ -19,6 +19,7 @@
         font-family: 'Playfair Display', serif;
         font-family: 'Raleway', sans-serif;
         font-family: 'Pathway Gothic One', sans-serif;
+
 }
 
    .clear{
@@ -36,7 +37,7 @@
 
 }
 /***********This Section overrides the collapsable element of the nav bar with 3 lines****************/
-/***********Before this code, you could only see the 3 bar menu when the screen size was smaller than tablet size***/
+/***********Before this code, you could only see the 3 bar menu when the screen size was smaller than tablet size
   .navbar-header {
          float: none;
      }
@@ -61,7 +62,38 @@
          padding-top: 10px;
          padding-bottom: 10px;
      }
-/******End Code for Nav Bar 3 line icon***********/
+End Code for Nav Bar 3 line icon***********/
+
+/**** CSS from bootstrap 3 menu generator  http://bootstrap3-menu.codedorigin.com/#sthash.dBCSbjHB.dpbs **/
+
+.navbar-inverse { background-color: #F5F5F5}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #428BCA}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #428BCA}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428BCA}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #FFFFFF}
+.navbar-inverse .navbar-brand { color: #999999}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #999999}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #333333}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+
+.dropdown-menu {
+  font-size: 1.4em;
+}
+
+
+
+
 
 /*** Splash Statement Main Jumbotron top fold***/
 

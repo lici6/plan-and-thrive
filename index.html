@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Coaching and Executive Consulting with Plan and Thrive</title>
+        <title>Home-Coaching and Executive Consulting with Plan and Thrive</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -27,13 +27,45 @@
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,300,400,600i" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
+        <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+        <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+          <div class="container">
+            <div class="navbar-header">
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+              <ul class="nav navbar-nav">
+                <!--<li>
+                  <a href="#">Getting started</a>
+                </li>-->
+        				<li class="dropdown">
+        	        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b> </a>
+        	        <ul class="dropdown-menu">
+        	          <li><a href="coaching/index.html">Coaching</a></li>
+        	          <li><a href="consulting/index.html">Executive Consulting</a></li>
+        	          <li><a href="workshops/index.html">Workshops and Live Events</a></li>
+        	          <li><a href="about/index.html">About</a></li>
+        	          <li><a href="contact/index.html">Contact</a></li>
+        	        </ul>
+        	      </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+  <!--  <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -57,7 +89,7 @@
  </div>
           <a class="navbar-brand" href="#"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse">-->
           <!--<form class="navbar-form navbar-right" role="form">
             <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
@@ -67,9 +99,9 @@
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
           </form>-->
-        </div><!--/.navbar-collapse -->
+        </div><!--/.navbar-collapse
       </div>
-    </nav>
+    </nav>-->
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron ">
@@ -97,8 +129,8 @@
 
         <div class="col-md-4">  <!--Client Coaching-->
         <hr>
-            <h3>Coaching</h3>
-            <img src="img/looking-into-distance.jpg" class="img-responsive">
+            <h3><a href="coaching/index.html">Coaching</a></h3>
+          <a href="coaching/index.html"><img src="img/looking-into-distance.jpg" class="img-responsive"></a>
 
 
 
@@ -110,8 +142,8 @@
 
         <div class="col-md-4">   <!--Business Consulting -->
           <hr>
-          <h3>Business Consulting</h3>
-          <img src="img/computer-planning.jpg" class="img-responsive">
+          <h3><a href="consulting/index.html">Business Consulting</a></h3>
+          <a href="consulting/index.html"><img src="img/computer-planning.jpg" class="img-responsive"></a>
             <p>Plan and Thrive is a consulting firm specialized in helping middle and small sized businesses grow to the next level by contributing to generate the organizational culture that allows healthy and sustainable growth.</p>
             <p> Organization’s culture and behavior is a variable of the entity’s ability to communicate, relate and learn and it can only grow if it manages to implement functional communication, development and learning systems.  </p>
             <p><a class="btn btn-default" href="#" role="button">View services &raquo;</a></p>
@@ -119,8 +151,8 @@
 
         <div class="col-md-4">  <!--Public Speaking -->
           <hr>
-          <h3>Workshops and Live Events</h3>
-          <img src="img/public-speaking.jpg" class="img-responsive">
+          <h3><a href="/workshops/index.html">Workshops and Live Events</a></h3>
+          <a href="/workshops/index.html"><img src="img/public-speaking.jpg" class="img-responsive"></a>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.</p><p> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p><p> Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">Book Today &raquo;</a></p>
         </div> <!-- End Public Speaking-->
